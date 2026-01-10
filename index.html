@@ -1,12 +1,744 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta name="author" content="Website Design Templates">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
     <title>DT Global</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logos/favicon.png">
+    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/plugins.css">
+    <!-- search css -->
+    <link rel="stylesheet" href="search/search.css">
+    <!-- quform css -->
+    <link rel="stylesheet" href="quform/css/base.css">
+    <!-- scroll -->
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <!-- core style css -->
+    <link href="css/styles.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Welcome to DT Global</h1>
-    <p>This repository is ready for hosting on GitHub Pages.</p>
+
+    <!-- PAGE LOADING -->
+    <div id="preloader"></div>
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper">
+        <!-- HEADER -->
+        <header class="header-style2">
+            <div class="top-bar bg-primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-xs-12">
+                            <div class="top-bar-info">
+                                <ul class="ps-0">
+                                    <li><i class="ti-mobile"></i>(+123) 456 7890</li>
+                                    <li class="d-none d-sm-inline-block"><i class="ti-email"></i>info@dtglobal.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-3 d-none d-md-block">
+                            <ul class="top-social-icon ps-0">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-default border-bottom border-color-light-white">
+                <!-- start top search -->
+                <div class="top-search bg-secondary">
+                    <div class="container">
+                        <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
+                            <div class="input-group">
+                                <span class="input-group-addon cursor-pointer">
+                                    <button class="search-form_submit fas fa-search text-white" type="submit"></button>
+                                </span>
+                                <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter...">
+                                <span class="input-group-addon close-search mt-1"><i class="fas fa-times"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end top search -->
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-12">
+                            <div class="menu_area alt-font">
+                                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                                    <div class="navbar-header navbar-header-custom">
+                                        <!-- start logo -->
+                                        <a href="index.html" class="navbar-brand logodefault"><img id="logo" src="img/logos/logo.png" alt="logo"></a>
+                                        <!-- end logo -->
+                                    </div>
+
+                                    <div class="navbar-toggler bg-primary"></div>
+
+                                    <!-- start menu area -->
+                                    <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a>
+                                            <ul>
+                                               <li><a href="business-advisor.html">Business Advisor</a></li> 
+                                               <li><a href="business-consultant.html">Business Advisor</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                    <!-- end menu area -->
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- BANNER -->
+        <section class="py-6 py-md-16 py-lg-20 py-xxl-24 bg-img cover-background parallax secondary-overlay" data-overlay-dark="85" data-background="img/banner/banner-04.jpg">
+            <div class="container pt-1-9 pt-sm-6 pt-md-0 mt-n1-9">
+                <div class="row align-items-center position-relative z-index-1 justify-content-center">
+                    <div class="col-lg-9 col-xxl-8 text-center py-9">
+                        <div class="section-title01 text-center">
+                            <span class="text-white text-uppercase small letter-spacing-4 d-block mb-3 font-weight-600">Driving Business Growth Forward</span>
+                            <h1 class="display-1 font-weight-800 mb-4 text-white lh-1 ls-minus-2px">Unlock your business <span class="title-sm banner"> growth potential</span> </h1>
+                        </div>
+                        <p class="mb-2-3 display-md-28 w-lg-80 mx-auto text-white d-none d-sm-block">Partnering with you to deliver tailored strategies that drive growth and efficiency. Unlock your business potential.</p>
+                        <a class="butn-style02" href="about.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary p-14 p-lg-20 p-xxl-24 d-inline-block rounded-circle position-absolute left-n10 left-lg-n15 left-xl-n10 bottom-n15 ani-top-bottom z-index-1 d-none d-md-block"></div>
+            <div class="banner-shape1"></div>
+            <img src="img/content/shape01.png" class="position-absolute right-5 top-10 z-index-3 ani-left-right d-none d-md-block" alt="...">
+            <div class="d-inline-block p-3 border border-width-2 border-white-color top-20 left-10 ani-move position-absolute rounded-circle z-index-1"></div>
+        </section>
+
+        <!--ABOUT US -->
+        <section>
+            <div class="container">
+                <div class="row align-items-xxl-center mt-n1-9">
+                    <div class="col-lg-6 mt-1-9">
+                        <div class="wow fadeInUp" data-wow-delay="100ms">
+                            <img src="img/content/about-08.jpg" alt="..." class="rounded">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-1-9">
+                        <div class="ps-lg-1-9 ps-xxl-7">
+                            <div class="section-title01 mb-1-9 wow fadeInUp" data-wow-delay="100ms">
+                                <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">About us</span>
+                                <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0">Fueling ambition with <span class="title-sm">expert strategy</span></h2>
+                            </div>
+                            <ul class="list-unstyled list-style03 w-sm-90 mb-2-6 wow fadeInUp" data-wow-delay="150ms">
+                                <li>
+                                    <strong class="text-dark">Strategic solutions tailored for you</strong>
+                                    <p class="text-muted mb-0">We analyze your challenges and craft custom strategies that drive sustainable growth.</p>
+                                </li>
+                                <li>
+                                    <strong class="text-dark">Expertise that delivers results</strong>
+                                    <p class="text-muted mb-0">Our experienced consultants partner with you to optimize operations and maximize business potential.</p>
+                                </li>
+                            </ul>
+                            <a href="about.html" class="butn-style02 wow fadeInUp" data-wow-delay="200ms">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SERVICE -->
+        <section class="service-style01 bg-light">
+            <div class="container">
+                <div class="row align-items-center mt-n1-9 mb-4 mb-lg-5">
+                    <div class="col-lg-9 col-xxl-8 mt-1-9">
+                        <div class="section-title01">
+                            <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">Our Services</span>
+                            <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0">Unlocking value with <span class="title-sm">consulting expertise</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xxl-4 mt-1-9">
+                        <div class="text-start text-lg-end">
+                            <a href="services.html" class="butn-style02">All Services</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vw-min-100 service-slider owl-carousel" data-owl='{ "loop": true, "autoplay": true, "autoplayTimeout": 5000, "responsiveClass": true, "smartSpeed": 900, "dots": false, "nav": true, "navText": ["<i class=\"ti-arrow-left text-primary\"></i>", "<i class=\"ti-arrow-right text-primary\"></i>"], "margin": 30, "responsive": { "0": { "items": 1 }, "767": { "items": 2 }, "1199": { "items": 3 }, "1499": { "items": 4 } } }'>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/ai-delopment.png" alt="ai" class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="#">AI development</a></h3>
+                            <p class="mb-1-9">Designing and delivering intelligent AI solutions that drive innovation and measurable business outcomes.</p>
+                            <a href="#" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/icon-10.png" alt="..." class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="#">Strategic Planning</a></h3>
+                            <p class="mb-1-9">Crafting a clear roadmap to achieve your long-term business goals.</p>
+                            <a href="#" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/icon-11.png" alt="..." class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="business-strategy.html">Business Strategy</a></h3>
+                            <p class="mb-1-9">Creating a focused plan to guide your company’s growth and advantage.</p>
+                            <a href="business-strategy.html" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/icon-12.png" alt="..." class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="#">Financial Modeling</a></h3>
+                            <p class="mb-1-9">Building data-driven forecasts to support informed business decisions.</p>
+                            <a href="#" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/icon-13.png" alt="..." class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="#">Marketing Strategy</a></h3>
+                            <p class="mb-1-9">Developing targeted plans to attract, and retain your ideal customers.</p>
+                            <a href="#" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/icon-14.png" alt="..." class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="#">Financial Advisory</a></h3>
+                            <p class="mb-1-9">Financial advisory is expert advice to help you make smart financial decisions.</p>
+                            <a href="#" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card card-style03 rounded border-0">
+                        <div class="card-body position-relative z-index-9">
+                            <div class="service-img">
+                                <img src="img/icons/icon-15.png" alt="..." class="w-50px">
+                            </div>
+                            <h3 class="h4 mb-2"><a href="#">Talent Management</a></h3>
+                            <p class="mb-1-9">Attracting, developing, and retaining skilled employees to maximize.</p>
+                            <a href="#" class="service-butn">Read More<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <div class="card-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--EXTRA -->
+        <section class="bg-secondary">
+            <div class="container">
+                <div class="row mt-n1-9">
+                    <div class="col-lg-6 mt-1-9">
+                        <div class="section-title01 mb-1-9">
+                            <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">Our Skills</span>
+                            <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0 text-white">Evidence of strategic <span class="title-sm">business success</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-1-9">
+                        <div class="progress-style1 ps-lg-2-9">
+                            <div>
+                                <div class="progress-text">
+                                    <div class="row mb-2">
+                                        <div class="col-6 fw-bold text-white">Client Satisfaction</div>
+                                        <div class="col-6 text-end text-white">65%</div>
+                                    </div>
+                                </div>
+                                <div class="custom-progress progress rounded-3 mb-4">
+                                    <div class="animated custom-bar progress-bar slideInLeft" style="width:65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="progress-text">
+                                    <div class="row mb-2">
+                                        <div class="col-6 fw-bold text-white">Projects Completed</div>
+                                        <div class="col-6 text-end text-white">85%</div>
+                                    </div>
+                                </div>
+                                <div class="custom-progress progress rounded-3 mb-4">
+                                    <div class="animated custom-bar progress-bar slideInLeft" style="width:95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="progress-text">
+                                    <div class="row mb-2">
+                                        <div class="col-6 fw-bold text-white">Cost Reduction</div>
+                                        <div class="col-6 text-end text-white">50%</div>
+                                    </div>
+                                </div>
+                                <div class="custom-progress progress rounded-3 mb-0">
+                                    <div class="animated custom-bar progress-bar slideInLeft" style="width:50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--WHY-CHOOSE-US -->
+        <section class="whyus-style01 pt-lg-0 pb-0">
+            <div class="container-fluid px-sm-6 px-xxl-10">
+                <div class="row g-xxl-5">
+                    <div class="col-lg-6">
+                        <div class="pb-lg-6 py-lg-10 py-xxl-15">
+                            <div class="section-title01 mb-1-9 wow fadeInUp" data-wow-delay="100ms">
+                                <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">Why choose us</span>
+                                <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0">Where insight meets <span class="title-sm">business growth</span></h2>
+                            </div>
+                            <div class="whyus-content wow fadeInUp" data-wow-delay="150ms">
+                                <div class="d-md-flex gap-md-4 align-items-md-center">
+                                    <div>
+                                        <div class="about-text rotating d-none d-md-block">
+                                            <svg viewBox="0 0 200 200">
+                                                <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0" transform="translate(100,100)" fill="none" stroke-width="0"></path>
+                                                <g font-size="22.7px">
+                                                    <text text-anchor="start">
+                                                        <textPath class="coloring" xlink:href="#textPath" startOffset="0%">building bright future making good memories. </textPath>
+                                                    </text>
+                                                </g>
+                                            </svg>
+                                            <div class="about-icon"><img src="img/logos/favicon.png" alt="..." class="w-50px"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-1-6 mb-md-0">
+                                        <div class="whyus-bg bg-primary">
+                                            <img src="img/icons/icon-18.png" alt="..." class="w-40px mb-4">
+                                            <h5 class="mb-2 text-white">Trusted Partners</h5>
+                                            <p class="display-28 text-white opacity8">We build long-term relationships and a deep commitment to your success.</p>
+                                            <a href="about.html" class="button-link text-white">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="whyus-bg bg-secondary">
+                                            <img src="img/icons/icon-19.png" alt="..." class="w-40px mb-4">
+                                            <h5 class="mb-2 text-white">Innovative Thinking</h5>
+                                            <p class="display-28 text-white opacity8">We bring fresh perspectives and creative solutions to solve complex business challenges.</p>
+                                            <a href="about.html" class="button-link text-white">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="bg-img cover-background h-100 vw-lg-50 rounded-left-bottom" data-background="img/content/why-choose-01.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECTS -->
+        <section>
+            <div class="container">
+                <div class="section-title01 mb-1-9 text-center">
+                    <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">Our Portfolio</span>
+                    <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0 w-md-70 w-lg-60 w-xl-55 w-xxl-50 mx-auto">Accelerating success with <span class="title-sm">best solutions</span></h2>
+                </div>
+            </div>
+            <div class="container-fluid p-md-0">
+                <div class="portfolio-carousel-one owl-carousel" data-owl='{"loop":true,"responsiveClass":true,"autoplay":true,"autoplayTimeout":5000,"nav":false, "navText": ["<i class=\"ti-arrow-left\"></i>", "<i class=\"ti-arrow-right\"></i>"], "dots":false,"center":false,"smartSpeed":1500,"margin":30,"responsive":{"0":{"items":1},"768":{"items":2},"992":{"items":4}}}'>
+                    <div class="portfolio-style01 position-relative">
+                        <div class="img-hover rounded">
+                            <img src="img/portfolio/portfolio-01.jpg" alt="..." class="rounded">
+                        </div>
+                        <div class="content">
+                            <div class="pe-3">
+                                <span class="d-block mb-1 text-primary font-weight-500">Finance</span>
+                                <h3 class="h5 mb-0"><a href="#">Financial Consulting</a></h3>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="ti-arrow-top-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-style01 position-relative">
+                        <div class="img-hover rounded">
+                            <img src="img/portfolio/portfolio-02.jpg" alt="..." class="rounded">
+                        </div>
+                        <div class="content">
+                            <div class="pe-3">
+                                <span class="d-block mb-1 text-primary font-weight-500">Business</span>
+                                <h3 class="h5 mb-0"><a href="#">Branding Projects</a></h3>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="ti-arrow-top-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-style01 position-relative">
+                        <div class="img-hover rounded">
+                            <img src="img/portfolio/portfolio-03.jpg" alt="..." class="rounded">
+                        </div>
+                        <div class="content">
+                            <div class="pe-3">
+                                <span class="d-block mb-1 text-primary font-weight-500">Investment</span>
+                                <h3 class="h5 mb-0"><a href="#">Investment Projects</a></h3>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="ti-arrow-top-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-style01 position-relative">
+                        <div class="img-hover rounded">
+                            <img src="img/portfolio/portfolio-04.jpg" alt="..." class="rounded">
+                        </div>
+                        <div class="content">
+                            <div class="pe-3">
+                                <span class="d-block mb-1 text-primary font-weight-500">Trading</span>
+                                <h3 class="h5 mb-0"><a href="#">Business Elevation</a></h3>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="ti-arrow-top-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-style01 position-relative">
+                        <div class="img-hover rounded">
+                            <img src="img/portfolio/portfolio-05.jpg" alt="..." class="rounded">
+                        </div>
+                        <div class="content">
+                            <div class="pe-3">
+                                <span class="d-block mb-1 text-primary font-weight-500">Marketing</span>
+                                <h3 class="h5 mb-0"><a href="#">Business Leadership</a></h3>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="ti-arrow-top-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-style01 position-relative">
+                        <div class="img-hover rounded">
+                            <img src="img/portfolio/portfolio-06.jpg" alt="..." class="rounded">
+                        </div>
+                        <div class="content">
+                            <div class="pe-3">
+                                <span class="d-block mb-1 text-primary font-weight-500">Growth</span>
+                                <h3 class="h5 mb-0"><a href="#">Brighter Lane</a></h3>
+                            </div>
+                            <div class="icon">
+                                <a href="#"><i class="ti-arrow-top-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROCESS -->
+        <section class="process-style02 pt-0 overflow-visible">
+            <div class="container">
+                <div class="row mt-n1-9">
+                    <div class="col-lg-6 mt-1-9">
+                        <div class="pe-xxl-6 sticky-top-style wow fadeInUp" data-wow-delay="100ms">
+                            <div class="section-title01 mb-1-9">
+                                <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">Our Process</span>
+                                <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0">Tailored process for <span class="title-sm">your success</span></h2>
+                            </div>
+                            <p class="wow fadeInUp" data-wow-delay="200ms">Our process is designed to guide you every step of the way. From initial consultation to personalized strategy development.</p>
+                            <a href="about.html" class="butn-style02 wow fadeInUp" data-wow-delay="300ms">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-1-9">
+                        <div class="process-block wow fadeInUp" data-wow-delay="100ms">
+                            <div class="process-content">
+                                <h3>step</h3>
+                                <h2>Discovery & Planning</h2>
+                                <p>Understanding your business needs and creating a strategy that drives growth, maximizes efficiency, and ensures success.</p>
+                            </div>
+                            <div class="process-num">
+                                <h2>01</h2>
+                            </div>
+                        </div>
+                        <div class="process-block wow fadeInUp" data-wow-delay="200ms">
+                            <div class="process-content">
+                                <h3>step</h3>
+                                <h2>Strategy & Design</h2>
+                                <p>Developing customized solutions to achieve goals through innovative strategies, and collaborative execution.</p>
+                            </div>
+                            <div class="process-num">
+                                <h2>02</h2>
+                            </div>
+                        </div>
+                        <div class="process-block mb-0 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="process-content">
+                                <h3>step</h3>
+                                <h2>Execution & Support</h2>
+                                <p>Implementing strategies effectively while providing sustainable success and measurable long-term growth for clients.</p>
+                            </div>
+                            <div class="process-num">
+                                <h2>03</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--EXTRA SECTION -->
+        <section class="py-22 py-md-24 jarallax" style="background-image: url(img/banner/video-bg-img.jpg);" data-jarallax data-speed="0.8" data-video-src="https://www.youtube.com/watch?v=pDWUf_g2zsc">
+            <div class="container py-xl-8"></div>
+        </section>
+
+        <!--BLOG-->
+        <section>
+            <div class="container position-relative z-index-2">
+                <div class="section-title01 mb-1-9 mb-md-6 text-center wow fadeInUp" data-wow-delay="100ms">
+                    <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700">Our Blog</span>
+                    <h2 class="display-4 font-weight-800 lh-1 ls-minus-2px mb-0 w-lg-70 w-xl-60 w-xxl-50 mx-auto">Thought leadership and <span class="title-sm">strategic insights</span></h2>
+                </div>
+                <div class="row gx-xl-5 mt-n2-9">
+                    <div class="col-md-6 col-xl-4 mt-2-9 wow fadeInUp" data-wow-delay="100ms">
+                        <article class="card card-style05 h-100 rounded">
+                            <div class="blog-img rounded-top">
+                                <img src="img/blog/blog-01.jpg" alt="..." class="rounded-top">
+                                <span><a href="#">Strategy</a></span>
+                            </div>
+                            <div class="card-body p-1-6 p-xxl-2-3">
+                                <h4 class="mb-3"><a href="#">Customer onboarding there business classes.</a></h4>
+                                <p class="mb-4">It is a guided process that helps clients smoothly enroll...</p>
+                                <div class="blog-author">
+                                    <div class="me-auto">
+                                        <span class="blog-date">15 Sep 2025</span>
+                                        <div class="author-name">
+                                            By <a href="#">admin</a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-like">
+                                        <i class="fa-regular fa-message text-primary"></i>
+                                        <span class="font-weight-600 align-middle ps-1">07</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4 mt-2-9 wow fadeInUp" data-wow-delay="150ms">
+                        <article class="card card-style05 h-100 rounded">
+                            <div class="blog-img rounded-top">
+                                <img src="img/blog/blog-02.jpg" alt="..." class="rounded-top">
+                                <span><a href="#">Growth</a></span>
+                            </div>
+                            <div class="card-body p-1-6 p-xxl-2-3">
+                                <h4 class="mb-3"><a href="#">How investing in dependend increasing to business.</a></h4>
+                                <p class="mb-4">Dependable employees increases business success...</p>
+                                <div class="blog-author">
+                                    <div class="me-auto">
+                                        <span class="blog-date">13 Sep 2025</span>
+                                        <div class="author-name">
+                                            By <a href="#">Admin</a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-like">
+                                        <i class="fa-regular fa-message text-primary"></i>
+                                        <span class="font-weight-600 align-middle ps-1">03</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-4 mt-2-9 wow fadeInUp" data-wow-delay="200ms">
+                        <article class="card card-style05 h-100 rounded">
+                            <div class="blog-img rounded-top">
+                                <img src="img/blog/blog-03.jpg" alt="..." class="rounded-top">
+                                <span><a href="#">Finance</a></span>
+                            </div>
+                            <div class="card-body p-1-6 p-xxl-2-3">
+                                <h4 class="mb-3"><a href="#">7 Productivity tips to avoid burnout when working.</a></h4>
+                                <p class="mb-4">Balance work with breaks, set boundaries, prioritize...</p>
+                                <div class="blog-author">
+                                    <div class="me-auto">
+                                        <span class="blog-date">10 Sep 2025</span>
+                                        <div class="author-name">
+                                            By <a href="#">Admin</a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-like">
+                                        <i class="fa-regular fa-message text-primary"></i>
+                                        <span class="font-weight-600 align-middle ps-1">10</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER -->
+        <footer class="pt-2-2 footer">
+            <div class="container">
+                <div class="row border-bottom border-color-light-white pb-2-2 mb-6 mb-lg-9 mt-n4">
+                    <div class="col-md-8 mt-4">
+                        <div>
+                            <ul class="mb-0 list-unstyled text-center text-md-start">
+                                <li class="d-inline-block pe-3"><a href="index.html" class="text-white text-primary-hover">Home</a></li>
+                                <li class="d-inline-block pe-3"><a href="about.html" class="text-white text-primary-hover">About</a></li>
+                                <li class="d-inline-block px-3"><a href="services.html" class="text-white text-primary-hover">Services</a></li>
+                                <li class="d-inline-block px-3"><a href="contact.html" class="text-white text-primary-hover">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <div>
+                            <ul class="mb-0 list-unstyled text-center text-md-end">
+                                <li class="d-inline-block pe-3"><a href="#" class="text-white text-primary-hover"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="d-inline-block px-3"><a href="#" class="text-white text-primary-hover"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="d-inline-block px-3"><a href="#" class="text-white text-primary-hover"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="d-inline-block ps-3"><a href="#" class="text-white text-primary-hover"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-2-6 mb-sm-6 mb-lg-9 mt-n2-6">
+                    <div class="col-md-6 col-lg-3 mt-2-6">
+                        <div class="pe-lg-1-9 pe-xl-5">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/logos/footer-light-logo.png" alt="..."></a>
+                            </div>
+                            <p class="mt-3">We’re an international development company focused on delivering innovative, data-driven solutions that create sustainable change and transform lives.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 mt-2-6">
+                        <div>
+                            <div class="section-title-01 mb-1-6">
+                                <h2 class="h4 font-weight-600 mb-0 text-white">Quick Links</h2>
+                            </div>
+                            <ul class="mb-0 list-unstyled list-style02">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 mt-2-6">
+                        <div>
+                            <div class="section-title-01 mb-1-6">
+                                <h2 class="h4 font-weight-600 mb-0 text-white">Services</h2>
+                            </div>
+                            <ul class="mb-0 list-unstyled list-style02">
+                                <li><a href="business-advisor.html">Ai Development</a></li>
+                                <li><a href="business-advisor.html">Business Strategy</a></li>
+                                <li><a href="business-advisor.html">Financial Modeling</a></li>
+                                <li><a href="business-advisor.html">Marketing Strategy</a><li>
+                                <li><a href="business-advisor.html">Financial Advisory</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 mt-2-6">
+                        <div>
+                            <div class="section-title-01 mb-1-6">
+                                <h2 class="h4 font-weight-600 mb-0 text-white">Our Skills</h2>
+                            </div>
+                            <ul class="mb-0 list-unstyled list-style02">
+                                <li><a href="#">Client Satisfaction</a></li>
+                                <li><a href="#">Projects Completed</a></li>
+                                <li><a href="#">Cost Reduction</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-2-6">
+                        <div>
+                            <div class="section-title-01 mb-1-6">
+                                <h2 class="h4 font-weight-600 mb-0 text-white">Need help?</h2>
+                            </div>
+                            <ul class="mb-0 list-unstyled list-style02">
+                                <li>Call us directly? <br>
+                                    <a href="tel:+254202713345">(+254) 20 271 3345 </a>
+                                </li>
+                                <li>Need support?<br>
+                                    <a href="mailto:info.dtglobal@gmail.com">info.dtglobal@gmail.com</a>
+                                </li>
+                                <li>Locate me?<br>
+                                    <a href="">Africa Corporate Office</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center border-top border-color-light-white py-4">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="text-center text-lg-start">
+                            <p class="d-inline-block text-white mb-0">&copy; <span class="current-year"></span> DT Global </p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-6 mb-3 mb-lg-0 order-1 order-lg-2">
+                        <div class="text-center text-lg-end mb-2 mb-lg-0">
+                            <ul class="mb-0 list-unstyled">
+                                <li class="d-inline-block pe-3"><a href="#" class="text-white text-primary-hover">Terms of Use</a></li>
+                                <li class="d-inline-block"><a href="#" class="text-white text-primary-hover">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+   
+    <!-- SCROLL TO TOP -->
+    <div class="scroll-top-percentage"><span id="scroll-value"></span></div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- scroll -->
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <!-- jquery -->
+    <script src="js/core.min.js"></script>
+    <!-- search -->
+    <script src="search/search.js"></script>
+    <!-- custom scripts -->
+    <script src="js/main.js"></script>
+    <!-- form plugins js -->
+    <script src="quform/js/plugins.js"></script>
+    <!-- form scripts js -->
+    <script src="quform/js/scripts.js"></script>
+
+
 </body>
+
 </html>
